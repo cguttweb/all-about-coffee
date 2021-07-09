@@ -1,7 +1,7 @@
 <template>
   <Layout>
-    <main>
-    <h1>Coffee Terms</h1>
+    <main class="container">
+    <h1 class="">Coffee Terms</h1>
       <ul>
         <li>
           <strong>Light Roast</strong> - a light roast has toasted grain taste more of the

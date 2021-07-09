@@ -19,10 +19,14 @@
 
 <style scoped>
 footer {
-  background-color: rgba(226, 94, 6, 0.75);
+  background-color: rgba(194, 82, 8, 0.75);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 a {
+    color: rgba(255, 255, 255, 1);
     font-weight: bold;
 }
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="layout max-w-full">
+  <div class="layout">
     <Header />
       <slot/>
     <Footer />
@@ -38,22 +38,22 @@ footer {
   @apply py-2;
 } */
 
-h1 {
+/* h1 {
   @apply text-3xl;
   @apply text-center;
   @apply font-semibold;
   @apply py-3;
-}
+} */
 
-h2 {
+/* h2 {
   @apply text-2xl;
   @apply text-center;
-}
-
+} */
+/* 
 main {
   @apply px-8;
   @apply py-4;
-}
+} */
 
 a:hover {
   font-weight: bold;

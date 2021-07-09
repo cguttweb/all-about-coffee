@@ -1,10 +1,10 @@
 <template>
     <Layout>
-      <main class="container">
+      <main class="container mx-auto">
         <h1>Coffee Beans and grinding</h1>
           <section class="beans border border-gray-800">      
             <div class="py-2">
-              <h2 class="">Beans</h2>
+              <h2>Beans</h2>
               <ul class="list-inside pb-4">
                 <li>
                   <strong>Arabica</strong> - c.60% of world coffee production caffeine levels vary
@@ -20,7 +20,7 @@
           </section>
           <section class="grinds border border-gray-800">
             <div class="py-2">
-              <h2 class="">Types of grind:</h2>
+              <h2>Types of grind:</h2>
               <p>The grind is important depending on which type of coffee you wish to make. </p>
               <ul class="list-inside">
                 <li>
@@ -60,22 +60,22 @@
 
 <style scoped>
 main {
-  /* background-color: rgba(226, 94, 6, 0.5); */
+  background-color: rgba(187, 81, 11, 0.5);
   /* min-height: 95vh; */
-  @apply max-w-6xl;
-  @apply mx-auto;
+  /* apply max-w-6xl*/
   /* background-image: url(../images/coffee-beans.jpg); */
   /* background-position: left; */
-  /* background-size: cover;  */
+  background-size: cover;
   /* background-image: url(../images/ground-coffee.jpg); */
+  color: #FFFFFF;
 }
 
 section {
-  @apply mb-4;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
-  @apply font-bold text-left;
+  padding-top: 0.5rem;
 }
 
 

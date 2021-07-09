@@ -1,6 +1,6 @@
 <template>
     <Layout>
-        <main>
+        <main class="container">
             <section>
                 <h1>History</h1>
                 <p>True origins of coffee are unknown but it is generally accepted that the origins of Arabica lie in South Sudan and Ethiopia with Robusta in west Africa. The earlist evidence for coffee drinking and the coffee tree itself is 15th century Yemen with Sufis monasteries drinking a tea from coffee cherries called <em>quishr</em> to stay awake during their nightly prayers.</p>
@@ -9,21 +9,21 @@
                 <p>Today coffee is drunk around the world and has spread to new areas including Asia. </p>
             </section>
             <section>
-                <h1>Cafe culture</h1>
-                <p>Coffee culture is described as a set of traditions and social interactions evolving around the consumption of coffee with the espresso becoming the dominant drink in the late 20th century.</p>
-                <p>A <span>coffeehouse/cafe</span> is an establishment that serves mostly coffee; they date back to 16th century Turkey. Much of the development of this 'cafe 'culture' is associated with Paris in the early 20th century with some associated with intellectuals and key figures of the day including artists, and writers.</p>
-                <p>More recently there has been a trend towards speciality cafes with coffee lovers having an increased awareness of coffee production, trade and preparation. The concept of "quality costs more" is a common one when associated with food and wine but now there is the awareness that they should also apply to coffee. These speciality companies focus on quality, sustainability and transparency with a balance between supply and demand, the cost and the ecology remains challenging and unpredictable particularly around the climate.</p>
+                <h2>Cafe culture</h2>
+                <p class="pb-2">Coffee culture is described as a set of traditions and social interactions evolving around the consumption of coffee with the espresso becoming the dominant drink in the late 20th century.</p>
+                <p class="pb-2">A <span>coffeehouse/cafe</span> is an establishment that serves mostly coffee; they date back to 16th century Turkey. Much of the development of this 'cafe 'culture' is associated with Paris in the early 20th century with some associated with intellectuals and key figures of the day including artists, and writers.</p>
+                <p class="pb-2">More recently there has been a trend towards speciality cafes with coffee lovers having an increased awareness of coffee production, trade and preparation. The concept of "quality costs more" is a common one when associated with food and wine but now there is the awareness that they should also apply to coffee. These speciality companies focus on quality, sustainability and transparency with a balance between supply and demand, the cost and the ecology remains challenging and unpredictable particularly around the climate.</p>
             </section>
         </main>
     </Layout>
 </template>
 
 <script>
-    export default {
-        metaInfo: {
-            title: 'History and cafe culture'
-        }
+export default {
+    metaInfo: {
+        title: 'History and cafe culture'
     }
+}
 </script>
 
 <style scoped>
